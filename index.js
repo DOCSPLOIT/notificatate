@@ -109,7 +109,7 @@ const ReactAppFromCDN = () => {
   };
   function setAsRead(index) {
     const mutated = data.map((t, i) => {
-      if (index) {
+      if (index !== undefined) {
         if (index === i) {
           t.read = true;
         }
