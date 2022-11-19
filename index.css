@@ -936,3 +936,6 @@ video {
     padding-right: 1.75rem;
   }
 }
+.cursor-pointer {
+  cursor: pointer;
+}
